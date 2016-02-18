@@ -1,0 +1,39 @@
+.btn-success {
+    @include featureButtons(3px, none);
+    background: { 
+        color: #517300;
+        repeat: repeat-x;
+        image: -khtml-gradient(linear, left top, left bottom, from($firstColorSuc), to($secondColorSuc));
+        image: -moz-linear-gradient($firstColorSuc, $secondColorSuc);
+        image: -ms-linear-gradient($firstColorSuc, $secondColorSuc);
+        image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $firstColorSuc), color-stop(100%, $secondColorSuc));
+        image: -webkit-linear-gradient($firstColorSuc, $secondColorSuc);
+        image: -o-linear-gradient($firstColorSuc, $secondColorSuc);
+        image: -ms-linear-gradient(top, $firstColorSuc 0%, $secondColorSuc 100%);
+    }
+}
+
+.btn-danger {
+    @include featureButtons(3px, none);
+    background: {
+        color: #517300;
+        repeat: repeat-x;
+        image: -khtml-gradient(linear, left top, left bottom, from($firstColorDan), to($secondColorDan));
+        image: -moz-linear-gradient($firstColorDan, $secondColorDan);
+        image: -ms-linear-gradient($firstColorDan, $secondColorDan);
+        image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $firstColorDan), color-stop(100%, $secondColorDan));
+        image: -webkit-linear-gradient($firstColorDan, $secondColorDan);
+        image: -o-linear-gradient($firstColorDan, $secondColorDan);
+        image: -ms-linear-gradient(top, $firstColorDan 0%, $secondColorDan 100%);
+    }
+}
+
+.btn-warning {
+    @include featureButtons($firstColorWarn, $secondColorWarn);
+    background: mix($firstColorWarn, $secondColorWarn);
+}
+
+.btn-warningLighten {
+    @include featureButtons($firstColorWarn, $secondColorWarn);
+    background: mix($firstColorWarn, $secondColorWarn, 30%);
+}

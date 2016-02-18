@@ -1,0 +1,33 @@
+#body-wrapper {
+    margin: 0 auto;
+}
+
+#boxes {
+    padding-top: $minDistance;     
+}
+
+.box {
+    width: 310px;
+    height: 210px;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+    text-shadow: 1px 1px 3px #000;
+    .textContent {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 290px;
+        background: url(../img/boxtextbg.png) repeat-y;
+        padding: 10px;
+        line-height: 27px;
+        font: {
+            size: 2em;
+            weight: bold;
+            }
+        text: {
+            align: center;
+            transform: uppercase;
+        }
+    }
+}

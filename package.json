@@ -1,0 +1,19 @@
+{
+  "name": "wh-splash-page",
+  "version": "1.0.0",
+  "description": "Working with Sass",
+  "main": "index.html",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-ruby-sass": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IMG",
+  "license": "ISC"
+}

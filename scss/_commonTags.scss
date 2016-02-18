@@ -1,0 +1,32 @@
+body{
+    background: url(../img/bodyBG.png) repeat-x #000c2c;
+    color: #fff;
+    font: 400 14px/1.36em "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 20px;
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+            li{
+                float: left;
+                margin-right: 20px;
+        }
+    }
+}
+

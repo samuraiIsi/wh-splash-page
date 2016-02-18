@@ -1,0 +1,17 @@
+.arrow {
+    background: url(../img/arrow.png) no-repeat center center;
+    margin-top: $minDistance;
+    width: 44px;
+    height: $medHeight - 19;
+    float: left;
+}
+
+#separator {
+    width: $fullWidth;
+    height: 27px;
+    background: url(../img/separadorBg.png) no-repeat top center;
+}
+
+.yellow {
+    color: #ffd300;
+}

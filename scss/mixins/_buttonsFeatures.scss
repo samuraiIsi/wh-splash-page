@@ -1,0 +1,23 @@
+@mixin featureButtons($borderRadius, $transition) {
+    color: white;
+    position: relative;
+    display: block;
+    font-size: 1.4em;
+    margin: -40px auto;
+    padding: 5px 10px;
+    width: 150px;
+    font: normal 12px/19px "Helvetica Neue", Arial, sans-serif;
+    &:hover {
+        color: black;
+    }
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-border-radius: $borderRadius;
+    -moz-border-radius: $borderRadius;
+    border-radius: $borderRadius;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: $transition;
+    transition: $transition;
+    font-size: 1.4em;
+}

@@ -1,0 +1,36 @@
+#header-wrapper {
+    width: $fullWidth;
+    height: 80px;
+    background: url(../img/banner123bg.png) no-repeat top center;
+}
+
+#steps {
+    margin: 0 auto;
+    a {
+        color: #fff;
+    }
+}
+
+.step {
+	width: $large / 3.291;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px black;
+    .number {
+    	float: left;
+	    color: $yellowGold;
+	    font-size: 6em;
+	    line-height: 1em;
+        padding-right: $minDistance / 2;
+    }
+    .textTitle {
+	   	color: $yellowGold;
+	    font-size: 2em;
+	    padding-top: $minDistance * 2;
+    }
+    .textSubtitle {
+        font-size: 1.5em;
+        margin-top: $minDistance / 2;
+    }
+}

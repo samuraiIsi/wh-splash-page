@@ -1,0 +1,25 @@
+$responsibleGame: age gt autoexclusion jugarBien;
+
+@each $responsible in $responsibleGame {
+	.resp-#{$responsible} {
+		background: url(../img/resp-#{$responsible}.gif) no-repeat;
+	}
+}
+
+.resp-age{
+    height: 26px;
+    width: 26px;
+}
+.resp-gt {
+    height: 28px;
+    width: 33px;
+}
+
+.resp-autoexclusion {
+    height: 30px;
+    width: 30px;
+}
+.resp-jugarBien {
+    height: 25px;
+    width: 66px;
+}
